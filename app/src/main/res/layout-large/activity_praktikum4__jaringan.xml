@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_praktikum4__jaringan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mulyanto.dinacom.Praktikum4_Jaringan"
+    tools:background="@drawable/motherboard_praktikum4"
+
+    android:background="@drawable/motherboard_praktikum4">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:id="@+id/pilih_ram"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/btnsalahpr41"
+        android:layout_width="350dp"
+        android:layout_above="@+id/pilih_ram"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="19dp"
+        android:layout_height="220dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnsalahpr43"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnsalahpr41"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnsalahpr42"
+        android:layout_width="100dp"
+        android:layout_alignBottom="@+id/pilih_ram"
+        android:layout_alignLeft="@+id/btnsalahpr41"
+        android:layout_alignStart="@+id/btnsalahpr41"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

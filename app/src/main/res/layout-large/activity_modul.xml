@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_modul"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mulyanto.dinacom.Modul">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/btnmotherboard"
+        android:background="@drawable/hover_motherboard"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/btnpower"
+        android:background="@drawable/hover_power"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/btnvga"
+        android:layout_alignLeft="@+id/btnvga"
+        android:layout_alignStart="@+id/btnvga" />
+
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/btnram"
+        android:background="@drawable/hover_ram"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnprosesor"
+        android:layout_alignLeft="@+id/btnprosesor"
+        android:layout_alignStart="@+id/btnprosesor" />
+
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/btnvga"
+        android:background="@drawable/hover_vga"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btnram"
+        android:layout_alignLeft="@+id/btnram"
+        android:layout_alignStart="@+id/btnram" />
+
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/btnprosesor"
+        android:background="@drawable/hover_prosesor"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnmotherboard"
+        android:layout_alignLeft="@+id/btnmotherboard"
+        android:layout_alignStart="@+id/btnmotherboard" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/hover_next" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hover_back"
+        android:id="@+id/btn_kembali"
+        android:layout_alignTop="@+id/btnnext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mulyanto.dinacom.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="88dp"
+        android:id="@+id/btnplay"
+        android:background="@drawable/hover_play"
+        android:layout_above="@+id/btnexit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnabout"
+        android:background="@drawable/hover_about"
+        android:layout_above="@+id/btnexit"
+        android:layout_alignLeft="@+id/btnplay"
+        android:layout_alignStart="@+id/btnplay"
+        android:layout_marginBottom="19dp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logodinacom"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="69dp"
+        android:layout_above="@+id/btnplay"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="47dp"
+        android:id="@+id/btnexit"
+        android:background="@drawable/hover_exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnabout"
+        android:layout_alignStart="@+id/btnabout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUSIC"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/musicoff"
+        android:background="@drawable/hover_off"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignRight="@+id/btnplay"
+        android:layout_alignEnd="@+id/btnplay" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/musicon"
+        android:background="@drawable/hover_on"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/btnplay"
+        android:layout_alignStart="@+id/btnplay" />
+
+</RelativeLayout>

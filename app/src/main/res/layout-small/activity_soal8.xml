@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mulyanto.dinacom.Soal8"
+    android:background="@drawable/delapan">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:weightSum="1"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/piliha"
+            android:hint="pilihan A"
+            android:text="Prosesor"
+            android:checked="false"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginTop="48dp"
+            android:textSize="35px"
+            android:textColor="#fbf9f9" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pilihb"
+            android:hint="pilihan B"
+            android:text="RAM"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="35px"
+            android:textColor="#fbf9f9" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pilihc"
+            android:hint="pilihan C"
+            android:text="VGA Card"
+            android:checked="false"
+            android:layout_above="@+id/next_soal"
+            android:textSize="35px"
+            android:textColor="#fbf9f9" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pilihd"
+            android:hint="pilihan D"
+            android:text="BIOS"
+            android:checked="false"
+            android:layout_above="@+id/pilihc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="62dp"
+            android:textSize="35px"
+            android:textColor="#fbf9f9" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="88dp"
+        android:layout_marginEnd="88dp"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_orange_light" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jaringan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mulyanto.dinacom.Jaringan">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnevaluasi"
+        android:background="@drawable/hover_evaluasi"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnpraktikum"
+        android:layout_alignLeft="@+id/btnpraktikum"
+        android:layout_alignStart="@+id/btnpraktikum" />
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/btnpraktikum"
+        android:background="@drawable/hover_praktikum"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/btnmateri"
+        android:layout_alignLeft="@+id/btnmateri"
+        android:layout_alignStart="@+id/btnmateri" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/juduljaringan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hover_back"
+        android:id="@+id/kembali"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginTop="92dp"
+        android:id="@+id/btnmateri"
+        android:background="@drawable/hover_materi"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

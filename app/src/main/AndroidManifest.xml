@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mulyanto.dinacom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".Play" />
+        <activity android:name=".Jaringan" />
+        <activity android:name=".Modul" />
+        <activity android:name=".Modul2" />
+        <activity android:name=".Motherboard" />
+        <activity android:name=".Prosesor" />
+        <activity android:name=".RAM" />
+        <activity android:name=".VGA" />
+        <activity android:name=".PowerSupply" />
+        <activity android:name=".Harddisk" />
+        <activity android:name=".Cmos" />
+        <activity android:name=".Bios" />
+        <activity android:name=".Heatsink" />
+        <activity android:name=".Letak" />
+        <activity android:name=".Praktikum1_Jaringan" />
+        <activity android:name=".Praktikum2_Jaringan" />
+        <activity android:name=".Praktikum3_Jaringan" />
+        <activity android:name=".Praktikum4_Jaringan" />
+        <activity android:name=".Praktikum5_Jaringan" />
+        <activity android:name=".Praktikum6_Jaringan" />
+        <activity android:name=".Praktikum7_Jaringan" />
+        <activity android:name=".Soal1" />
+        <activity android:name=".Soal2" />
+        <activity android:name=".Soal3" />
+        <activity android:name=".Soal4" />
+        <activity android:name=".Soal5" />
+        <activity android:name=".Soal6" />
+        <activity android:name=".Soal7" />
+        <activity android:name=".Soal8" />
+        <activity android:name=".Soal9" />
+        <activity android:name=".Soal10" />
+        <activity android:name=".Hasil" />
+        <activity android:name=".Credit"></activity>
+    </application>
+
+</manifest>
